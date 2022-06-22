@@ -6,6 +6,55 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+}
+
+.blocpage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header {
+    align-self: center;
+}
+
+.archives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.caroussel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    border: 1px solid green;
+    margin-top: 40px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4,15%);
+    gap: 15px;    
+    height: 400px;
+}
+
+.img_acc {
+
+}
+
+footer {
+    border: 1px solid blue;
+    align-self: center;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
 }
 
