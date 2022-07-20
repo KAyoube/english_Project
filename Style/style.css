@@ -12,7 +12,6 @@ html {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 100vh;
 }
 
 header {
@@ -68,5 +67,16 @@ footer {
   justify-self: flex-end !important;
   width: 70%;
   height: 50px;
+  display: none;
 }
 
+#carouselExampleInterval img {
+   object-fit: contain;
+   margin-left: 5%;
+   height: 500px;
+}
+
+/*#carouselExampleInterval {
+    background-image: url(../Media/images/connect.jpg);
+    background-repeat: no-repeat;
+}*/
