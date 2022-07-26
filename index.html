@@ -1,58 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Thomas.N,Jeff.J,Joaquim.S,Ayoube.K">
-    <link type="text/css" rel="stylesheet" href="./Style/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Thomas.N,Jeff.J,Joaquim.S,Ayoube.K" />
+    <link type="text/css" rel="stylesheet" href="./Style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/b1a97c216f.js" crossorigin="anonymous"></script>
+    <title>SuperhumanIntel</title>
+  </head>
+  <body>
     <div class="blocpage">
-        <header> HOMEPAGE</header>
-        <!--    <div class="archives">Archives</div>    -->
-
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item d-flex" data-bs-interval="2000">
-                    <img src="Media/images/téléchargement.jpeg" class="d-block w-100" alt="...">
-                    <img src="Media/images/images.jpeg" class="d-block w-100" alt="...">
-                </div>
-              <div class="carousel-item active" data-bs-interval="2000">
-                <img src="Media/images/photo1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="Media/images/unnamed-5_200428_175030.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="Media/images/Focus-3-e1557730834544.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-        <div class="images">
-            <img id ="joaquim" class="img_acc" src="Media/images/joaquim.jpg" alt="Joaquim">
-            <img id = "ayoube" class="img_acc" src="Media/images/kratos.jpg" alt="Ayoube">
-            <img id = "jeff" class="img_acc" src="Media/images/jeff.jpg" alt="Jeff">
-            <img id = "thomas" class="img_acc" src="Media/images/Thomas.png" alt="Thomas">
+      <header>
+        <div id="logo">
+          <p>“It's not a faith in technology. It's faith in people.”</p>
+          <img src="./Media/images/—Pngtree—tech eyeball_5647095.png" alt="">
+          <p>Superhuman Intel</p>
         </div>
-        <!-- <footer>
-            <div class="copy">Copyright</div>
-            <div class="contact">contact</div>
-        </footer> -->
+        <div id="linkRecrut">
+          <a href="recrutement.html">Join us</a>
+        </div>
+      </header>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="Media/images/photo1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="Media/images/unnamed-5_200428_175030.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="Media/images/Focus-3-e1557730834544.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="title">
+        <h3>Click on our photo to know more about us</h3>
+      </div>
+      <div id="imageContainer">
+        <div class="images">
+          <img
+            id="joaquim"
+            class="img_acc"
+            src="Media/images/joaquim.jpg"
+            alt="Joaquim"
+          />
+        </div>
+        <div class="images">
+          <img
+            id="jeff"
+            class="img_acc"
+            src="Media/images/jeff.jpg"
+            alt="Jeff"
+          />
+        </div>
+        <div class="images">
+          <img
+            id="ayoube"
+            class="img_acc"
+            src="Media/images/kratos.jpg"
+            alt="Ayoube"
+          />
+        </div>
+        <div class="images">
+          <img
+            id="thomas"
+            class="img_acc"
+            src="Media/images/Thomas.png"
+            alt="Thomas"
+          />
+        </div>
+      </div>
     </div>
-    
-</body>
-<script src="./Script/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div id="infoJoaquim" class="infos" style="display:none;">
+      <h5>Joaquim Silva - Cybersecurity Manager</h5>
+      <p>Cybersecurity management can be described as everything an organisation does to protect AI from 
+        cyber attacks, intrusions, malware and various types of data breaches. 
+        All businesses and public bodies are vulnerable to cyber attacks, which are increasing in sophistication and number. 
+        The proper functioning of networks and the protection of sensitive data require constant monitoring and proper cybersecurity management.</p>
+    </div>
+    <div id="infoAyoube" class="infos" style="display:none;">
+      <h5>Ayoube - Data Analyst</h5>
+      <p>If Data Analyst's job is also to exploit and interpret data, the Data Scientist has a global vision.
+        He's responsible for translating business problems into mathematical and statistical problems, 
+        to provide reports to guide AI decision-making and improve their performance.</p>
+    </div>
+    <div id="infoThomas" class="infos" style="display:none;">
+      <h5>Thomas Niaux - AI Enginner</h5>
+      <p>The AI engineer can create programs to teach the machine to react in place of man on subjects where the data is numerous and reliable enough to be organised. 
+        It's just as important to analyse the data, 
+        human behaviour and business processes as it's to organise them into a coherent system that can be transmitted to the machine. 
+        This is what is known as 'machine learning'. 
+        Deep learning" is concerned with more complex and comprehensive processes, based on what are known as "neural networks".
+        The quadruple training of the EPITA IA institute allows to approach complexity with a real scientific,   
+        technical, managerial and human training, because the AI Engineer, in all his actions, must keep the measure of man and the sense of ethics.</p>
+    </div>
+    <div id="infoJeff" class="infos" style="display:none;">
+      <h5>Jefferson - Coffee Manager</h5>
+      <p>As a cloud architect, his role is to make AI evolve to meet the needs of the business. 
+        To do this, they must first identify these needs and collect the relevant data. 
+        He must then conceive the solution to be deployed, define its design and put it in place. 
+        In addition, his mission also involves ensuring that the solution or architecture adopted corresponds to the existing environment.</p>
+    </div>
+    <hr>
+    <div id="projectContainer">
+      <h2>Our project</h2>
+      <h4>Future project: Human 2.0</h4>
+      <div id="projectTextContainer">
+        <p>An internal exoskeleton allows a human to lift more than 100 times his weight (average human weight).</p>
+        <p>Aquatic breathing</li>
+        <p>The ability to talk to each other at a distance and without external telephone support.</p>
+        <p>Accelerated motor skills, humans will be able, like AIs, to move at speeds of over 150km/h (or even break the sound barrier, depending on the means of protection deployed).</p>
+        <p>The ability to locate oneself spatially thanks to an integrated "gps", thanks to the coded eye currently being developed, which will be able to create a map in the image of the eye of everything that surrounds it (study of nanotechnologies underway).</p>
+        <p>Everything the eye sees will be recorded as it is in the part reserved for this purpose, and thanks to the names of the streets and a satellite view of the city, it will be able to have a 2D and 3D map.</p>
+      </div>
+    </div>
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+      </div>
+    </footer>
+  </body>
+  <script src="./Script/script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
 </html>

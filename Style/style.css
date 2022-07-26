@@ -15,68 +15,115 @@ html {
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    background-color:#212529;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-self: center;
 }
 
-.archives {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 30px;
-    border: 1px solid red;
-    margin-top: 20px;
+#logo p {
+    margin-bottom: 0px;
 }
 
-.caroussel {
+#logo img {
+    width: 100px;
+    height: 100px;
+}
+
+#linkRecrut {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#linkRecrut a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px !important;
+    color: #0d6efd;
+}
+
+#projectContainer {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#projectTextContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#projectTextContainer p {
+    width: 30%;
+    background-color: rgb(187,236,246);
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100px;
-    border: 1px solid green;
-    margin-top: 40px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #0d6efd;
+}
+
+#imageContainer {
+    display: flex;
 }
 
 .images {
-    display: grid;
-    grid-template-columns: repeat(4,15%);
-    justify-content: center;
-    gap: 20px;    
-    height: 400px;
+    display: flex;
+    margin: 0 auto 0 auto;
 }
 
 .img_acc {
-    width: 100%;
     border-radius: 100px;
-    height: 220px;
+    height: 150px;
+    width: 150px;
     align-self: center;
-}
-
-footer {
-    border: 1px solid blue;
-    align-self: center;
-    justify-self: flex-end;
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
 }
 
 .test{
-  align-self: flex-end !important;
-  justify-self: flex-end !important;
-  width: 70%;
   height: 50px;
-  display: none;
+  width: 50px;
 }
 
 #carouselExampleInterval img {
-   object-fit: contain;
-   margin-left: 5%;
-   height: 500px;
+   height: 400px;
+   width: 100%;
 }
 
-/*#carouselExampleInterval {
-    background-image: url(../Media/images/connect.jpg);
-    background-repeat: no-repeat;
-}*/
+.carousel-control-next, .carousel-control-prev {
+    height: 400px;
+    margin-top: 100px;
+}
+
+.infos {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    background-color: rgb(204, 204, 204);
+    margin-top: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(54, 69, 79);
+}
